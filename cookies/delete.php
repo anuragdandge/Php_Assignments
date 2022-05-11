@@ -19,5 +19,4 @@ setcookie("age", "20", time() - 3600,"/","",0);
     ?>
     <?php echo " Deleted Cookies ";?>
 </body>
-
 </html>
