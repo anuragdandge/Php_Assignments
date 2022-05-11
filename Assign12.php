@@ -4,9 +4,11 @@ session_start();
 
 ?>
 <html>
+
 <head>
-<title>Login</title>
+    <title>Login</title>
 </head>
+
 <body>
     <?php
      $msg = "";
@@ -19,15 +21,17 @@ session_start();
             else{
                 $msg = "You have entered invalid username and password";
             }
-
      }
     ?>
     <form action="<?php $_SERVER["PHP_SELF"]?>" method="post">
-    <center>
-    <h1><?php echo $msg; ?></h1>
-    <input type="text" name="username" placeholder="Username" required><br/><br/>
-    <input type="password" name="password" placeholder="password" required><br/><br/>
-    <input type="submit" name="login" value="Login"><br/><br/>
-    Click here to clean <a href="logout.php">Session.</a>
-    </center>
+        <center>
+            <h1><?php echo $msg; ?></h1>
+            <input type="text" name="username" placeholder="Username" required><br /><br />
+            <input type="password" name="password" placeholder="password" required><br /><br />
+            <input type="submit" name="login" value="Login"><br /><br />
+            Click here to clean <a href="logout.php">Session.</a>
+        </center>
+    </form>
+</body>
+
 </html>
