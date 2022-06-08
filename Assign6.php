@@ -1,5 +1,4 @@
 <!-- WAP to create HTML form with all inputs -->
-
 <html>
     <head><title>Assign 6</title></head>
     <body>
@@ -37,6 +36,4 @@ $item = $_POST['item']; echo $item."<br/>";
 $file = $_POST['file']; echo $file."<br/>";
 $delete = $_POST['delete']; echo $delete."<br/>";
 $url = $_POST['url']; echo $url."<br/>";
-
-
 ?>

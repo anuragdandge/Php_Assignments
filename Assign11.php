@@ -1,4 +1,20 @@
 <!-- Write a Program to set cookies and access cookies and delete cookies  -->
+
+<!-- Setting  -->
+<!-- <html>
+
+<head></head>
+
+<body>
+<?php
+    setcookie("name","anurag",time()+3600,"/","",0);
+    setcookie("age",20,time()+3600,"/","",0);
+    ?>
+</body>
+
+</html> -->
+
+
 <!-- Accessing  -->
 <!-- <html>
 
@@ -15,19 +31,6 @@
 
 </html> -->
 
-<!-- Setting  -->
-<!-- <html>
-
-<head></head>
-
-<body>
-    <?php
-    setcookie("name","anurag",time()+3600,"/","",0);
-    setcookie("age",20,time()+3600,"/","",0);
-    ?>
-</body>
-
-</html> -->
 
 <!-- Deleting  -->
 
